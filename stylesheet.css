@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
 
 :root{
-    --primary-color:blue
+    --primary-color:#34d399
 }
 body{
-    font-family: 'Open Sans', sans-ser
-    
+    font-family: 'Open Sans', sans-ser;
+    margin:0px;  
 }
 
 hr{
@@ -18,15 +18,17 @@ hr{
 }
 
 .container-center{
-    maxwidth:600px;
+    
     margin:auto;
 }
 
 /** links **/
 
 .link{
+    box-sizing: border-box;
     text-decoration:none;
     padding:0.5rem 1rem;
+    
 }
 
 .link-primary{
@@ -61,30 +63,36 @@ hr{
     border-bottom-left-radius: 1rem;
 }
 
-.navigation.nav-brand{
+.navigation .nav-brand{
     font-weight:bold;
 }
 
-.navigation.link{
+.navigation .link{
     color:white;
 }
 
-.navigation.link-active{
+.navigation .link-active{
     font-weight:bold;
 }
 
+.navigation .navpills{
+    text-align: right;
+}
+
 .hero{
-    padding:2rem;
+    padding:5rem;
 }
 
-.hero.hero-img{
-    maxwidth:350px;
-    display:block;
+ .hero .hero-img{
+   maxwidth: 600px; 
+   display:block;
     margin:auto;
-}
+}  
 
-.hero.hero-heading{
-    color:grey;
+.hero .hero-heading{
+    padding:1rem;
+    color:green;
+    text-align: centre;
 }
 
 /** section **/
@@ -96,4 +104,28 @@ hr{
 .section h1{
     text-align:centre;
     padding:zero;
+}
+.ow{
+    background-color:var(--primary-color);
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: centre;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color:white;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
 }
