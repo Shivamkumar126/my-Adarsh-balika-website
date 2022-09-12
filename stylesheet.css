@@ -81,13 +81,16 @@ hr{
 }
 
 .hero{
-    padding:5rem;
+    padding:3rem;
+    
+    
 }
 
  .hero .hero-img{
  
    display:block;
     margin:auto;
+    max-width:67vw;
 }  
 
 .hero .hero-heading{
@@ -99,7 +102,7 @@ hr{
 /** section **/
 
 .section{
-    padding:2rem;
+    padding:1rem;
 }
 
 .section h1{
